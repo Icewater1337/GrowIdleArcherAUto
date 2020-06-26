@@ -615,11 +615,13 @@ def execute_routine():
     enchant_counter = 0
     time.sleep(5)
 
-    if reset_counter == 3:
-        release_town_rotation()
-        reset_counter = 0
+
 
     while(True):
+        if reset_counter == 3:
+            release_town_rotation()
+            reset_counter = 0
+            
         reincarnate()
         reset_counter += 1
 
