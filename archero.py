@@ -599,7 +599,7 @@ def release_town_rotation():
     clicker.click_pos(1688,343)
     time.sleep(1)
     print("activate auto progress if not already")
-    clicker.executeClickIfExists("images/auto_rogress_empty.png")
+    clicker.executeClickIfExists("images/auto_progress_empty.png")
     time.sleep(1)
     print("start battle")
     clicker.executeClickASAP("images/town_start_battle.png")
